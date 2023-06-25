@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-image: url("new1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+span{
+    color: rgb(245, 182, 186);
+}
+
+.b1>textarea{
+    outline: none;
+    width: 29rem;
+    height: 13rem;
+    border-radius: 2rem;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: .5s;
+    margin-bottom: 1.2rem;
+    letter-spacing: 1px;
+}
+
+textarea:hover{
+    background-color: rgb(217, 219, 220);
+}
+
+button{
+    padding:.5rem 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    background-color: rgb(254, 103, 113);
+    color: aliceblue;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: .5rem;
+}
+
+button:hover{
+    scale: 1.2;
+}
+
+select{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 2rem;
+    outline: none;
+    padding: .5rem;
+    background-color: rgb(224, 238, 251);
+}
+
